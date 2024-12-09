@@ -13,6 +13,7 @@ public class paymentcontroller {
         return switch (payment) {
             case "ATM" -> "ATM";
             case "CASH" -> "CASH";
+            case "Credit Card" ->"CREDIT CARD";
             default -> "";
         };
 
